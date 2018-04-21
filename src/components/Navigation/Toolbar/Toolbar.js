@@ -7,10 +7,9 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 const toolbar = (props) => (
     <header className={classes.Toolbar}>
         <div>MENU</div>
-        <Logo />
         <SideDrawer />
-        <div>LOGO</div>
-        <nav>
+        <Logo />
+        <nav className={classes.DesktopOnly}>
             <NavigationItems />
         </nav>
     </header>
