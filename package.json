@@ -30,6 +30,7 @@
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.6",
     "promise": "8.0.1",
+    "prop-types": "^15.6.1",
     "react": "^16.0.0",
     "react-dev-utils": "^4.0.1",
     "react-dom": "^16.0.0",
@@ -41,9 +42,6 @@
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3"
-  },
-  "devDependencies": {
-    "react-scripts": "git://github.com/facebookincubator/create-react-app.git"
   },
   "scripts": {
     "start": "node scripts/start.js",
