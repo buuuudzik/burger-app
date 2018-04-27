@@ -109,14 +109,14 @@ class ContactData extends Component {
             orderData: formData
         }
         console.log(order)
-        axios.post('/orders.json', order).then(response => {
-            console.log('Przesłano zamówienie', response);
-            this.setState({loading: false});
-            this.props.history.push('/');
-        }).catch(error => {
-            console.log('Nie przesłano zamówienia', error);
-            this.setState({loading: false});
-        });
+        // axios.post('/orders.json', order).then(response => {
+        //     console.log('Przesłano zamówienie', response);
+        //     this.setState({loading: false});
+        //     this.props.history.push('/');
+        // }).catch(error => {
+        //     console.log('Nie przesłano zamówienia', error);
+        //     this.setState({loading: false});
+        // });
     }
 
     checkValidity = (value, rules) => {
