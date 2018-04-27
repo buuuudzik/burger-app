@@ -9,5 +9,9 @@ export {
 export {
     purchaseBurger,
     purchaseBurgerStart,
-    purchaseInit
+    purchaseInit,
+    fetchOrders,
+    fetchOrdersStart,
+    fetchOrdersSuccess,
+    fetchOrdersFail
 } from './order';
